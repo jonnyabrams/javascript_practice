@@ -21,7 +21,7 @@ const searchCandies = (price, letter) => {
         .map(candy => candy.name
         );
 }
-console.log(searchCandies(10, 'sk'));
+// console.log(searchCandies(10, 'sk'));
 
 module.exports = searchCandies;
 
