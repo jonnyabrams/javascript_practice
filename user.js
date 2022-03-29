@@ -13,8 +13,8 @@ class User {
 
 }
 
-const user = new User('Diego');
+// const user = new User('Diego');
 
-console.log(user.getIntroduction());
+// console.log(user.getIntroduction());
 
 module.exports = User;
