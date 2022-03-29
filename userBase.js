@@ -20,14 +20,14 @@ class UserBase {
   }
 }
 
-const users = [
-  new User('Uma'),
-  new User('Josh'),
-  new User('Ollie')
-];
+// const users = [
+//   new User('Uma'),
+//   new User('Josh'),
+//   new User('Ollie')
+// ];
 
-const blg = new UserBase(users);
+// const blg = new UserBase(users);
 
-console.log(blg.getIntroductions());
+// console.log(blg.getIntroductions());
 
 module.exports = UserBase;
